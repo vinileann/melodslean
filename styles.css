@@ -1,0 +1,61 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+footer {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    background-image: linear-gradient(to right, #5dd55d, #84fa84);
+    padding-top: 60px;
+}
+.colunas {
+    display: flex;
+    flex-direction: row;  /* Certifica que os itens fiquem lado a lado */
+    justify-content: center;  /* Centraliza as colunas no contêiner */
+    flex-wrap: nowrap;  /* Garante que os itens não quebrem para uma nova linha */
+    gap: 50px; /* Define o espaçamento entre as colunas */
+    margin-bottom: 30px;
+}
+.colunas h2 {
+    text-align: center;
+}
+.coluna-links, .coluna-sociais, .coluna-contatos {
+    text-align: center;
+}
+.colunas ul li {
+    margin-bottom: 5px; /* Adiciona um espaço entre os itens */
+}
+.colunas ul li a {
+    display: block;
+    padding: 5px 15px; /* Aumenta o padding para aumentar o tamanho do hover */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color:black;
+    text-decoration: none;
+}
+.colunas ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    padding-left: 0; /* Remove o padding padrão da esquerda */
+}
+.colunas ul li a:hover {
+    background-color: #84fa84; /* Cor de fundo ao passar o mouse */
+}
+.colunas a {
+    display: inline-block;
+    padding:5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
