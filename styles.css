@@ -64,3 +64,75 @@ h3 {
     border-radius: 5px;
     /* O padding já está aplicado, então não precisa mudar */
 }
+
+
+.logo {
+    height: auto;
+    max-height: 80px;
+    width: auto;
+    max-width: fit-content;
+}
+
+footer {
+      display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right, #5dd55d, #84fa84);
+    padding: 20px; /* Adiciona padding para espaçamento */
+    position: fixed;
+    bottom: 0;  display: flex;
+    align-items: center; /* Alinha o conteúdo do footer verticalmente */
+    justify-content: flex-start; /* Alinha o conteúdo para a esquerda */
+    width: 100%;
+    background-image: linear-gradient(to right, #5dd55d, #84fa84);
+    padding: 20px; /* Adiciona padding para espaçamento */
+    position: fixed;
+    bottom: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente a logo */
+    margin-right: 20px; /* Espaço entre a logo e as colunas */
+    margin-left: 24%;
+
+}
+
+.colunas {
+    display: flex;
+    flex-direction: row;  /* Certifica que os itens fiquem lado a lado */
+    justify-content: center;  /* Centraliza as colunas no contêiner */
+    flex-wrap: nowrap;  /* Garante que os itens não quebrem para uma nova linha */
+    gap: 50px; /* Define o espaçamento entre as colunas */
+    margin-bottom: 0px;
+}
+.colunas h2 {
+    text-align: center;
+}
+.coluna-links, .coluna-sociais, .coluna-contatos {
+    text-align: center;
+}
+.colunas ul li {
+    margin-bottom: 5px; /* Adiciona um espaço entre os itens */
+}
+.colunas ul li a {
+    display: block;
+    padding: 5px 15px; /* Aumenta o padding para aumentar o tamanho do hover */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color:black;
+    text-decoration: none;
+}
+.colunas ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    padding-left: 0; /* Remove o padding padrão da esquerda */
+}
+.colunas ul li a:hover {
+    background-color: #84fa84; /* Cor de fundo ao passar o mouse */
+}
+.colunas a {
+    display: inline-block;
+    padding:5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
